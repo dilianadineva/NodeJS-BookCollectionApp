@@ -12,7 +12,7 @@ var todoController=require('./controllers/todoController')
 
 //fire up the controller
 todoController(app)
-
+//start server
 app.listen(port, function(){
     console.log("Server started at port "+port)
 }) 
